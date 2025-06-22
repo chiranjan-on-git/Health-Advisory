@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+jinja2  # If serving HTML dynamically
+# any other non-flask specific libraries

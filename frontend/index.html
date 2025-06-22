@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Advisories - MediSonar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title">MediSonar</h1>
+            <button id="theme-toggle-btn" class="theme-toggle">
+                <i class="fas fa-moon"></i> <!-- Default icon (dark mode), JS will update -->
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="header">
+            <h1>Official Medical Advisories</h1>
+            <p class="subtitle">Shows the top 5 latest government health alerts based on your location.</p>
+        </div>
+        
+        <div class="controls">
+            <input type="text" id="locationInput" placeholder="Enter State, Country (e.g., California, United States)">
+            <button id="getAdvisoriesBtn">Get Advisories</button>
+        </div>
+        
+        <div id="loading" class="hidden">Loading...</div>
+        <div id="resultsArea" class="hidden">
+            <h2>Advisories:</h2>
+            <pre id="advisoriesOutput"></pre>
+        </div>
+        <div id="errorArea" class="hidden error"></div>
+    </main>
+
+    <footer>
+        <p>© <span id="currentYear"></span> MediSonar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
