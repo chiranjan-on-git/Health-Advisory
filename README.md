@@ -5,7 +5,7 @@ Your Personal Public Health Advisory Assistant
 Health Advisory is a web application that helps you quickly find the top 5 most relevant and current official public health advisories issued by government or public health authorities for a specified state and country. It leverages the power of Perplexity AI to retrieve timely and summarized information.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/877a1938-df1d-4d06-96c0-db9e42228cb6" width="400" alt="image" />
+  <img src="https://github.com/user-attachments/assets/877a1938-df1d-4d06-96c0-db9e42228cb6" width="600" alt="image" />
 </p>
 
 ## Features
