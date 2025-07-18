@@ -57,7 +57,7 @@ Follow these steps to set up and run Health Advisory locally.
 
 1.  **Navigate to the backend directory:**
     ```bash
-    cd ADVISORY/backend
+    cd Health-Advisory/backend
     ```
 
 2.  **Create a Python virtual environment:**
@@ -105,7 +105,7 @@ The frontend is built with plain HTML, CSS, and JavaScript, so no specific insta
 ### 1. Start the Backend Server
 
 1.  Ensure your virtual environment is active (from Backend Setup step 3).
-2.  From the `ADVISORY/backend` directory, run the FastAPI application using Uvicorn:
+2.  From the `Health-Advisory/backend` directory, run the FastAPI application using Uvicorn:
     ```bash
     uvicorn app:app --reload --host 0.0.0.0 --port 5001
     ```
@@ -113,7 +113,7 @@ The frontend is built with plain HTML, CSS, and JavaScript, so no specific insta
 
 ### 2. Open the Frontend Application
 
-1.  Navigate to the `ADVISORY/frontend` directory.
+1.  Navigate to the `Health-Advisory/frontend` directory.
 2.  Open the `index.html` file in your web browser.
     *   You can usually do this by double-clicking the `index.html` file.
     *   **Recommended:** For better local development experience (especially with CORS), use a local server extension for your code editor (e.g., "Live Server" for VS Code). This typically serves the page on `http://127.0.0.1:5500`.
